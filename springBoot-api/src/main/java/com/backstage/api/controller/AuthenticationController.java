@@ -14,6 +14,7 @@ import javax.annotation.Resource;
 @Api(description = "授权接口")
 @CrossOrigin
 @RestController
+@RequestMapping("auth")
 public class AuthenticationController {
 
     @ApiOperation(value ="测试")
